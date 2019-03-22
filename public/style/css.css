@@ -1,0 +1,143 @@
+#app {
+	width: 100%;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	width: 240px;
+	margin: 3px;
+	display: block;
+	clear:both;
+	overflow: hidden;
+}
+
+li p {
+	margin: 0px;
+	width: 120px;
+	display: block;
+	float:left
+}
+
+textarea {
+    width: 230px;
+}
+
+#wrap-form, #wrap-ul, #wrap-search, h3, #history-btn, .historyblockwrapper, .invisible {
+	margin: 3px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+    z-index: 1000;
+}
+
+h3 {
+    margin-right: 90px;
+}
+
+.note {
+    background-color: grey;
+    height: 100px;
+    width: 210px;
+    z-index: 1001;
+    position: absolute;
+    margin: auto;
+    left: 42%;
+    top: 10%;
+}
+
+#wrap-ul {
+	overflow: hidden;
+}
+
+#historytask {
+    list-style: none;
+    width: 400px;
+    margin: 3px;
+    display: block;
+    clear:both;
+    overflow: hidden;
+}
+
+#historytask p {
+    width: 330px;
+    margin: 0px;
+    display: block;
+    float:left
+}
+
+.invisible {
+    display: none;
+}
+
+#ul-list {
+	overflow: hidden;
+    margin: 6px;
+}
+
+#search-field {
+	margin: 0 auto;
+	display: block;
+}
+
+#search-field input {
+    width: 235px;
+}
+
+#btn-del {
+	float: right;
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#btn-del:hover {
+	background-color: #33894f;
+}
+
+#btn-priority {
+    margin-right: 10px;
+    float: left;
+    background-color: #eaeaea;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#btn-priority:hover {
+    background-color: #f44336;
+}
+
+.red {
+    background-color: #f44336 !important;
+}
+
+#btn-add {
+	height: 23px;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#btn-add:hover {
+	background-color: #008CBA;
+}
+
+#input-field {
+	height: 17px;
+    width: 200px;
+}

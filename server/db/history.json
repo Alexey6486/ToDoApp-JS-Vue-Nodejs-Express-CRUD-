@@ -1,0 +1,20 @@
+[
+    {
+        "plan": "write something",
+        "priority": false,
+        "time": "21 Mar, Thu 21:52:40",
+        "note": "dasfasfafd"
+    },
+    {
+        "plan": "make something else",
+        "priority": false,
+        "time": "21 Mar, Thu 21:55:39",
+        "note": "gotcha\n"
+    },
+    {
+        "plan": "сходить за хлебом",
+        "priority": false,
+        "time": "22 Mar, Fri 16:31:02",
+        "note": "хлеба не было, купил молока"
+    }
+]
